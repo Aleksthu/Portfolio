@@ -1,0 +1,16 @@
+.main{
+    text-align: center;
+    margin: 20% 10%;
+    height: 19vh;
+}
+
+.main h1{
+    margin: 20px;
+    font-family: 'Merriweather', serif;
+    color: #eaeaea;
+}
+
+.main h2{
+    font-family: 'Nunito', sans-serif;
+    color: #444444;
+}

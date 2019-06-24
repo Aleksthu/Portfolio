@@ -1,0 +1,95 @@
+
+.projectBtn {
+	background-color:#444444;
+	border-radius: 10px;
+	cursor:pointer;
+	color:#eaeaea;
+	padding:6px 24px;
+    text-decoration:none;
+    position: relative;
+    top: 50%;
+    margin: 5px;
+}
+
+.projectBtn:hover{
+    opacity: .9;
+    color: #eaeaea;
+    text-decoration:none;
+
+}
+
+.projects{
+    padding-top: 1.5%;
+    background-color: #eaeaea;
+    width: 100%;
+    text-align: center;
+
+}
+
+.project h1{
+    margin-top: 400px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 4rem;
+}
+
+.project p{
+    color: #eaeaea;
+    font-size: 1.3rem;
+    font-family: 'Merriweather', serif;
+}
+
+
+.project{
+    display: inline-block;
+    margin: 3% 2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all .2s ease-in-out;
+    border-radius: 5px;
+    width: 420px;
+    height: 600px;
+    background-size:cover;
+    color: white;
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px); 
+}
+
+
+.project:hover{
+    transform: scale(1.14);
+    text-decoration: none;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+/*.projects a {
+    color: white;
+    transition: all .1s ease-in-out;
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);    
+}
+
+.projects a:hover {
+    color: #444444;
+    text-decoration: none;
+    transform: scale(1.4);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}*/
+
+.tindog{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/Tindog.jpg') center no-repeat;
+}
+.tindog:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Tindog.jpg') center no-repeat;
+    color: #444444;
+}
+.simonGame{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/SimonGame.jpg') center no-repeat;
+}
+.simonGame:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/SimonGame.jpg') center no-repeat;
+    /* Get proper size of image */
+}
+
+
+
