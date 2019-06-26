@@ -57,6 +57,7 @@
     text-decoration: none;
     filter: blur(0px);
     -webkit-filter: blur(0px);
+    text-shadow: 2px 2px black ;
 }
 
 /*.projects a {
@@ -100,5 +101,16 @@
     background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Drumkit.jpg') center no-repeat;
 }
 
+@media screen and (max-width: 550px){
+    .project{
+        width: 320px;
+        height: 440px;
+    }
+    .project h1{
+        margin: 270px 0 20px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 3.2rem;
+    }
+}
 
 
