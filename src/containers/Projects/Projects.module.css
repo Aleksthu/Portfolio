@@ -8,28 +8,26 @@
     text-decoration:none;
     position: relative;
     top: 50%;
-    margin: 5px;
+    margin: 5px ;
 }
 
 .projectBtn:hover{
-    opacity: .9;
+    opacity: .8;
     color: #eaeaea;
     text-decoration:none;
-
 }
 
 .projects{
-    padding-top: 1.5%;
+    padding-top: 5%;
     background-color: #eaeaea;
-    width: 100%;
     text-align: center;
-
+    width: 100%;
 }
 
 .project h1{
-    margin-top: 400px;
+    margin: 380px 0 20px;
     font-family: 'Nunito', sans-serif;
-    font-size: 4rem;
+    font-size: 3.8rem;
 }
 
 .project p{
@@ -41,12 +39,12 @@
 
 .project{
     display: inline-block;
-    margin: 3% 2%;
+    margin: 3% 3%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: all .2s ease-in-out;
-    border-radius: 5px;
-    width: 420px;
-    height: 600px;
+    border-radius: 15px;
+    width: 380px;
+    height: 550px;
     background-size:cover;
     color: white;
     filter: blur(1.5px);
@@ -88,7 +86,18 @@
 }
 .simonGame:hover{
     background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/SimonGame.jpg') center no-repeat;
-    /* Get proper size of image */
+}
+.diceGame{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/DiceGame.jpg') center no-repeat;
+}
+.diceGame:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/DiceGame.jpg') center no-repeat;
+}
+.drumkit{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/Drumkit.jpg') center no-repeat;
+}
+.drumkit:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Drumkit.jpg') center no-repeat;
 }
 
 

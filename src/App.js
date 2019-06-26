@@ -18,10 +18,10 @@ function App() {
       <header>
         <div className={classesNav.navbar}>
           <ul>
-            <a href='#home' className={classes.home}>Home</a>
-            <a href='#projects' className={classes.projects}>Projects</a>
-            <a href='#skills' className={classes.skills}>Skills</a>
-            <a href='#footer'>Footer</a>
+            <a href='#home' >Home</a>
+            <a href='#projects' >Projects</a>
+            <a href='#skills' >Skills</a>
+            <a href='#footer'>Links</a>
           </ul>
         </div>
       </header>

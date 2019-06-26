@@ -9,12 +9,22 @@
 
 .Links{
     position: relative;
-    top: 40%;
-    left: 10%;
+    margin: auto;
+    text-align: left;
 }
 
 .Name{
     position: relative;
-    top: 40%;
-    left: 70%;
+    margin: auto;
+    text-align: right;
+}
+
+i{
+    color: #444444;
+    margin: 0 5px;
+    
+}
+
+a{
+    font-size: 1.5rem;
 }

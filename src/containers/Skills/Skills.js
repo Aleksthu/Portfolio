@@ -21,6 +21,7 @@ class Skills extends Component {
                     <h2>Backend</h2>
                     <ul>
                         <li>Node.js - Express.js</li>
+                        <li>C#</li>
                     </ul>
                 </div>
                 <div className={classes.skills}>
@@ -29,6 +30,14 @@ class Skills extends Component {
                         <li>MongoDB - Mongoose</li>
                         <li>APIs</li>
                         <li>Authentication</li>
+                    </ul>
+                </div>
+                <div className={classes.skills}>
+                    <h2>IDE's</h2>
+                    <ul>
+                        <li>VSCode</li>
+                        <li>Atom</li>
+                        <li>VisualStudio2017</li>
                     </ul>
                 </div>
             </div>
