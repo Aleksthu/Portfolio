@@ -25,7 +25,7 @@
 
 .project h1{
     font-family: 'Nunito', sans-serif;
-    font-size: 3.8rem;
+    font-size: 3.6rem;
     margin: 380px 0 20px;
 }
 
@@ -103,6 +103,12 @@
 }
 .portfolio:hover{
     background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Portfolio.jpg') center no-repeat;
+}
+.burgerBuilder{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/BurgerBuilder.jpg') center no-repeat;
+}
+.burgerBuilder:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/BurgerBuilder.jpg') center no-repeat;
 }
 @media screen and (max-width: 900px){
     .project{

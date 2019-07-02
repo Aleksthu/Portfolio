@@ -19,6 +19,11 @@ class Projects extends Component {
                     <h1>Secrets</h1>
                     <a className={classes.projectBtn} href='https://github.com/Aleksthu/UdemySecrets' >Code</a>
                 </div>
+                <div className={classes.project + ' ' + classes.burgerBuilder} >
+                    <h1>Burger Builder</h1>
+                    <a className={classes.projectBtn} href='https://udemy-burgerbuilder.herokuapp.com/' >Project</a>
+                    <a className={classes.projectBtn} href='https://github.com/Aleksthu/UdemyBurgerbuilder' >Code</a>
+                </div>
                 <div className={classes.project + ' ' + classes.tindog} >
                     <h1>Tindog</h1>
                     <a className={classes.projectBtn} href='https://aleksthu.github.io/UdemyTindog/' >Project</a>
