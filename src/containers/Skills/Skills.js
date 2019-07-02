@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/auxiliary';
 import classes from './Skills.module.css';
-
 
 class Skills extends Component {
     render() {
@@ -25,11 +23,14 @@ class Skills extends Component {
                     </ul>
                 </div>
                 <div className={classes.skills}>
-                    <h2>Utilites & other</h2>
+                    <h2>Other</h2>
                     <ul>
                         <li>MongoDB - Mongoose</li>
                         <li>APIs</li>
                         <li>Authentication</li>
+                        <li>WPF</li>
+                        <li>GIT</li>
+                        <li>Firebase</li>
                     </ul>
                 </div>
                 <div className={classes.skills}>

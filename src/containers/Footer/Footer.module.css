@@ -1,21 +1,21 @@
 .Footer{
-    height: 100px;
     background-color: #eaeaea;
     color: #444444;
+    display: flex;
+    height: 100px;
     position: absolute;
     width: 100%;
-    display: flex;
 }
 
 .Links{
-    position: relative;
     margin: auto;
+    position: relative;
     text-align: left;
 }
 
 .Name{
-    position: relative;
     margin: auto;
+    position: relative;
     text-align: right;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import ScrollableAnchor, { goToTop } from 'react-scrollable-anchor';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 import classes from './App.module.css';
 import Frontpage from './containers/Frontpage/Frontpage';
@@ -9,9 +9,7 @@ import Aux from './hoc/auxiliary';
 import classesNav from './components/Navigation/Navbar/Navbar.module.css';
 import Footer from './containers/Footer/Footer';
 
-
 function App() {
-
   return (
     <Aux className={classes.App}>
       {/* <Navbar /> */}
@@ -35,7 +33,7 @@ function App() {
         <Skills />
       </ScrollableAnchor>
       <ScrollableAnchor id='footer'>
-          <Footer/>
+        <Footer />
       </ScrollableAnchor>
     </Aux>
   );

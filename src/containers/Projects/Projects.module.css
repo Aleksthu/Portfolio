@@ -4,74 +4,48 @@
 	border-radius: 10px;
 	cursor:pointer;
 	color:#eaeaea;
+    margin: 5px;
 	padding:6px 24px;
-    text-decoration:none;
     position: relative;
+    text-decoration:none;
     top: 50%;
-    margin: 5px ;
 }
 
 .projectBtn:hover{
-    opacity: .8;
     color: #eaeaea;
+    opacity: .8;
     text-decoration:none;
 }
 
 .projects{
-    padding-top: 5%;
     background-color: #eaeaea;
     text-align: center;
     width: 100%;
 }
 
 .project h1{
-    margin: 380px 0 20px;
     font-family: 'Nunito', sans-serif;
     font-size: 3.8rem;
+    margin: 380px 0 20px;
 }
-
-.project p{
-    color: #eaeaea;
-    font-size: 1.3rem;
-    font-family: 'Merriweather', serif;
-}
-
 
 .project{
-    display: inline-block;
-    margin: 3% 3%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: all .2s ease-in-out;
-    border-radius: 15px;
-    width: 380px;
-    height: 550px;
     background-size:cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: white;
-
+    display: inline-block;
+    height: 550px;
+    margin: 3% 3%;
+    transition: all .2s ease-in-out;
+    width: 380px;
 }
-
 
 .project:hover{
+    text-decoration: none;
+    text-shadow: 3px 3px 6px black ;
     transform: scale(1.14);
-    text-decoration: none;
-
-    text-shadow: 2px 2px black ;
 }
-
-/*.projects a {
-    color: white;
-    transition: all .1s ease-in-out;
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);    
-}
-
-.projects a:hover {
-    color: #444444;
-    text-decoration: none;
-    transform: scale(1.4);
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-}*/
 
 .tindog{
     background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/Tindog.jpg') center no-repeat;
@@ -97,25 +71,57 @@
 .drumkit:hover{
     background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Drumkit.jpg') center no-repeat;
 }
-
-@media screen and (max-width: 550px){
+.blog{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/Blog.gif') center no-repeat;
+    transition: all .2s ease-in-out;
+}
+.blog:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Blog.gif') center no-repeat;
+    height: 650px;
+    width: 750px;
+}
+.todoList{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/TodoList.gif') center no-repeat;
+    transition: all .2s ease-in-out;
+}
+.todoList:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/TodoList.gif') center no-repeat;
+    height: 650px;
+    width: 475px;
+}
+.secrets{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/Secrets.gif') center no-repeat;
+    transition: all .2s ease-in-out;
+}
+.secrets:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Secrets.gif') center no-repeat;
+    height: 650px;
+    width: 420px;
+}
+.portfolio{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('../../Images/Portfolio.jpg') center no-repeat;
+}
+.portfolio:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url('../../Images/Portfolio.jpg') center no-repeat;
+}
+@media screen and (max-width: 900px){
     .project{
-        width: 320px;
-        height: 440px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         filter: blur(0px);
-        -webkit-filter: blur(0px);
-        text-shadow: 2px 2px black;
+        height: 440px;
         margin-bottom: 40px;
+        text-shadow: 2px 2px 3px black;
+        -webkit-filter: blur(0px);
+        width: 320px;
     }
     .project:hover{
+        text-shadow: 2px 2px 3px black ;
         transform: scale(1);
-        
     }
     .project h1{
-        margin: 270px 0 20px;
         font-family: 'Nunito', sans-serif;
         font-size: 3.2rem;
+        margin: 270px 0 20px;
     }
     .tindog{
         background:url('../../Images/Tindog.jpg') center no-repeat;
@@ -140,6 +146,36 @@
     }
     .drumkit:hover{
         background:url('../../Images/Drumkit.jpg') center no-repeat;
+    }
+    .blog{
+        background:url('../../Images/Blog.gif') center no-repeat;
+    }
+    .blog:hover{
+        background:url('../../Images/Blog.gif') center no-repeat;
+        height: 440px;
+        width: 320px;
+    }
+    .todoList{
+        background:url('../../Images/TodoList.gif') center no-repeat;
+    }
+    .todoList:hover{
+        background:url('../../Images/TodoList.gif') center no-repeat;
+        height: 440px;
+        width: 320px;
+    }
+    .secrets{
+        background:url('../../Images/Secrets.gif') center no-repeat;
+    }
+    .secrets:hover{
+        background:url('../../Images/Secrets.gif') center no-repeat;
+        height: 440px;
+        width: 320px;
+    }
+    .portfolio{
+        background:url('../../Images/Portfolio.jpg') center no-repeat;
+    }
+    .portfolio:hover{
+        background:url('../../Images/Portfolio.jpg') center no-repeat;
     }
 }
 

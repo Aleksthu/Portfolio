@@ -1,17 +1,17 @@
 .main{
-    text-align: center;
-    margin: 20% 10%;
     height: 19vh;
+    margin: 20% 10%;
+    text-align: center;
     width: auto;
 }
 
 .main h1{
-    margin: 20px;
-    font-family: 'Merriweather', serif;
     color: #eaeaea;
+    font-family: 'Merriweather', serif;
+    margin: 20px;
 }
 
 .main h2{
-    font-family: 'Nunito', sans-serif;
     color: #444444;
+    font-family: 'Nunito', sans-serif;
 }
